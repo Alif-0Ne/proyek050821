@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: #0062C3;
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    padding: 11px 24px;
+}
+
+header h1 a {
+    transition: 1s;
+    color: black;
+}
+
+header h1 a:hover {
+    color: white;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li{
+    padding: 21px;
+    display: inline-block;
+}
+
+header ul li a {
+    transition: 0,8s;
+    color: black;
+}
+
+header ul li a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+}
+
+#tengah1 {
+    text-align: left;
+    padding-left: 450px;
+}
+
+#tengah2 {
+    text-align: left;
+    padding-left: 500px;
+}
+
+#gambar {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+}
+
+#kun {
+    background-color: #c36100;
+    text-align: center;
+}
